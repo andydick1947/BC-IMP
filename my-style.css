@@ -26,7 +26,11 @@ background-color: beige;
 }
 #content2{
   grid-area:content2;
-  background-color: blue;
+  background-color: white;
+  padding: 1%;
+  color:blue;
+  font-size: 25px;
+  font-family:'Segoe UI';
 }
 #content3{
   background-color:red;
@@ -37,8 +41,12 @@ background-color: beige;
   grid-area:content4;
 }
 #content5{
-  background-color: beige;
+  background-color: white;
   grid-area:content5;
+  padding: 1%;
+  color:blue;
+  font-size: 25px;
+  font-family:'Segoe UI';
   }
   #content6{
     background-color: blue;
@@ -49,8 +57,12 @@ background-color: beige;
     grid-area:content7;
   }
   #content8{
-    background-color: beige;
+    background-color:white;
     grid-area:content8;
+    padding: 1%;
+    color:blue;
+    font-size: 25px;
+    font-family:'Segoe UI';
   }
   footer{
     grid-area:footer;
