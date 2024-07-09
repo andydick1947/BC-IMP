@@ -64,16 +64,23 @@ background-color: beige;
     font-size: 25px;
     font-family:'Segoe UI';
   }
+  .img1{
+    height:210px;
+  }
+  .img2{
+    height: 210px;
+  }
   footer{
     grid-area:footer;
     background-color: white;
     }
-@media only screen and (max-width: 1000px) and (min-width: 800px) {
+@media only screen and (max-width: 1000px) and (min-width: 760px) {
   body {
     background-color: pink;
   }
 }
-@media only screen and (max-width: 800px) and (min-width: 600px)  {
+
+@media only screen and (max-width: 760px) and (min-width: 600px)  {
   body {
     background-color: red;
 
@@ -81,7 +88,7 @@ background-color: beige;
 }
 @media only screen and (max-width: 600px){
   body {  
-background-color: lightblue;
+background-color: beige;
 .container {
    grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
@@ -96,6 +103,33 @@ background-color: lightblue;
   "footer footer";
   grid-gap: .1em;
 }
+#content1{
+  background-color: beige;
+  margin-left: 120px;
+}
 
+#content2{
+  background-color: beige;
+
+}
+
+#content3{
+  background-color: beige;
+}
+
+#content4{
+  background-color: beige;
+  margin-left: 120px;
+}
+
+#content6{
+  background-color: beige;
+}
+
+#content7{
+  background-color: beige;
+  margin: auto;
+  
+}
 }
 }
