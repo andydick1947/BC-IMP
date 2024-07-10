@@ -1,6 +1,6 @@
 body{
   box-sizing: border-box;
-  background-color: beige);
+  background-color: beige;
 }
 
 .container{
@@ -111,6 +111,7 @@ background-color: beige;
       body {
         background-color: beige;
       }
+    }
 @media only screen and (max-width: 1000px) and (min-width: 760px) {
   body {
     background-color: beige;
@@ -120,12 +121,13 @@ background-color: beige;
 @media only screen and (max-width: 760px) and (min-width: 600px)  {
   body {
     background-color: beige;
-
   }
 }
 @media only screen and (max-width: 600px){
   body {  
 background-color: beige;
+  }
+}
 .container {
    grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.2fr .2fr 1fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
@@ -169,6 +171,4 @@ background-color: beige;
 #content7{
   background-color: beige;
   margin: auto;
-}
-}
 }
