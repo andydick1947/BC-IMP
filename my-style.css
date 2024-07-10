@@ -1,6 +1,6 @@
 body{
   box-sizing: border-box;
-  background-color: rgb(10, 0, 0);
+  background-color: beige);
 }
 
 .container{
@@ -19,7 +19,9 @@ grid-template-areas:
 }
 main{
 grid-area: main;
-background-color: white;
+background-color: beige;
+color: black;
+margin: auto;
 }
 
 nav{
@@ -105,15 +107,19 @@ background-color: beige;
     grid-area:footer;
     background-color: white;
     }
+    @media only screen and (min-width: 1000px) {
+      body {
+        background-color: beige;
+      }
 @media only screen and (max-width: 1000px) and (min-width: 760px) {
   body {
-    background-color: pink;
+    background-color: beige;
   }
 }
 
 @media only screen and (max-width: 760px) and (min-width: 600px)  {
   body {
-    background-color: red;
+    background-color: beige;
 
   }
 }
