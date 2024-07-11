@@ -52,14 +52,13 @@ nav a.active {
   color: white;
 
 }
-
 #content1{
 grid-area:content1;
 background-color: beige;
 }
 #content2{
   grid-area:content2;
-  background-color: white;
+  background-color: beige;
   padding: 1%;
   color:blue;
   font-size: 25px;
@@ -108,18 +107,22 @@ background-color: beige;
     background-color: white;
     }
 
-@media only screen and (max-width: 1000px) and (min-width: 760px) {
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
   body {
     background-color: beige;
   }
+  footer{
+    background-color: red;
+  }
+  
 }
 
-@media only screen and (max-width: 760px) and (min-width: 600px)  {
+@media only screen and (max-width: 800px) and (min-width: 760px)  {
   body {
     background-color: beige;
   }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 760px){
   body {  
 background-color: beige;
   }
