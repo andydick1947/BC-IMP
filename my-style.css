@@ -21,6 +21,9 @@ main{
 grid-area: main;
 background-color: beige;
 color: black;
+font-size: 40px;
+font-weight:bold;
+text-align:center;
 margin: auto;
 }
 
@@ -87,6 +90,7 @@ background-color: beige;
   #content7{
     background-color: beige;
     grid-area:content7;
+    margin: auto;
   }
   #content8{
     background-color:beige;
@@ -141,6 +145,11 @@ background-color: beige;
   "content8 content8"
   "footer footer";
   grid-gap: .1em;
+}
+main{
+  text-align:center;
+  font-size: 30px;
+  font-weight:bold;
 }
 #content1{
   background-color: beige;
